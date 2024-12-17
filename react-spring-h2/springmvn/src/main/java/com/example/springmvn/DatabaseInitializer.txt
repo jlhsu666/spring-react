@@ -1,0 +1,45 @@
+package com.example.springmvn;
+import jakarta.annotation.PostConstruct;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import org.springframework.stereotype.Component;
+
+@Component
+public class DatabaseInitializer {
+
+    @PostConstruct
+    public void initDatabase() {
+        String url = "jdbc:h2:mem:product"; // H2 in-memory database URL
+        String user = "sa";               // Default H2 username
+        String password = "";             // Default H2 password
+
+        // SQL to create the Product table
+        String createTableSql = "CREATE TABLE IF NOT EXISTS product (" +
+                                "id BIGINT AUTO_INCREMENT PRIMARY KEY, " +
+                                "name VARCHAR(255) NOT NULL, " +
+                                "description VARCHAR(255), " +
+                                "price DOUBLE NOT NULL)";
+
+        // SQL to insert test data
+        String insertTestDataSql = "INSERT INTO product (name, description, price) VALUES " +
+                                   "('Product A', 'Description for Product A', 29.99), " +
+                                   "('Product B', 'Description for Product B', 49.99), " +
+                                   "('Product C', 'Description for Product C', 19.99)";
+
+        try (Connection conn = DriverManager.getConnection(url, user, password);
+             Statement stmt = conn.createStatement()) {
+
+            // Create the Product table
+            stmt.execute(createTableSql);
+            System.out.println("Product table created successfully.");
+
+            // Insert test data
+            stmt.execute(insertTestDataSql);
+            System.out.println("Test data inserted successfully.");
+
+        } catch (Exception e) {
+            System.err.println("Failed to initialize database: " + e.getMessage());
+        }
+    }
+}
