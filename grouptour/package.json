@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react-cookie": "^7.2.2",
+    "react-router-dom": "^7.0.2",
+    "reactstrap": "^9.2.3"
+  }
+}
