@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { listEmployees } from '../service/EmployeeService';
+import { listEmployees, deleteEmployee } from '../service/EmployeeService';
 
 function ListEmployeeComponent() {
     const [employees, setEmployees] = useState([]);
@@ -26,18 +26,14 @@ function ListEmployeeComponent() {
         navigate(`/edit-employee/${id}`);
     }
 
-    const deleteEmployee = (id) => {
-        console.log(id);
-        removeEmployee(id).then(() => {
-            getAllEmployees();
-        }).catch(error => {
-           console.error(error)
-        })
-    }
-
-    const removeEmployee = async (id) => {
-        await deleteEmployee(id);
-        getAllEmployees()
+    const removeEmployee =  (id) => {
+        deleteEmployee(id).then((response) => {
+                            console.log(response.data);
+                            navigate('/employees');
+                            getAllEmployees();
+                        }).catch(error => {
+                            console.error(error);
+                        })
     }
 
     return (
@@ -64,7 +60,7 @@ function ListEmployeeComponent() {
                                 <td>{employee.email}</td>
                                 <td>
                                     <button className="btn btn-info" onClick={() => updateEmployee(employee.id)}>更新</button>
-                                    <button className="btn btn-danger" onClick={() => deleteEmployee(employee.id)} style={{ marginLeft: '10px' }}>刪除</button>
+                                    <button className="btn btn-danger" onClick={() => removeEmployee(employee.id)} style={{ marginLeft: '10px' }}>刪除</button>
                                 </td>
                             </tr>
                         )
