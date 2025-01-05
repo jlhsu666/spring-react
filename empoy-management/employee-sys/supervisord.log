@@ -1,0 +1,138 @@
+2025-01-05 08:49:13,057 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 08:49:13,090 INFO supervisord started with pid 1
+2025-01-05 08:49:14,095 INFO spawned: 'blogapp' with pid 7
+2025-01-05 08:49:14,103 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 08:49:15,108 INFO spawned: 'blogapp' with pid 8
+2025-01-05 08:49:15,124 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 08:49:17,136 INFO spawned: 'blogapp' with pid 9
+2025-01-05 08:49:17,153 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 08:49:20,156 INFO spawned: 'blogapp' with pid 10
+2025-01-05 08:49:20,162 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 08:49:21,164 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-05 09:39:30,777 WARN received SIGTERM indicating exit request
+2025-01-05 09:39:55,478 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 09:39:55,492 INFO supervisord started with pid 1
+2025-01-05 09:39:56,495 INFO spawned: 'blogapp' with pid 7
+2025-01-05 09:39:56,507 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 09:39:57,513 INFO spawned: 'blogapp' with pid 8
+2025-01-05 09:39:57,520 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 09:39:59,537 INFO spawned: 'blogapp' with pid 9
+2025-01-05 09:39:59,556 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 09:40:02,564 INFO spawned: 'blogapp' with pid 10
+2025-01-05 09:40:02,580 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 09:40:03,583 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-05 09:50:25,336 WARN received SIGTERM indicating exit request
+2025-01-05 09:51:48,174 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 09:51:48,183 INFO supervisord started with pid 1
+2025-01-05 09:51:49,186 INFO spawned: 'blogapp' with pid 7
+2025-01-05 09:51:49,196 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 09:51:50,200 INFO spawned: 'blogapp' with pid 8
+2025-01-05 09:51:50,210 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 09:51:52,214 INFO spawned: 'blogapp' with pid 9
+2025-01-05 09:51:52,221 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 09:51:55,227 INFO spawned: 'blogapp' with pid 10
+2025-01-05 09:51:55,235 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 09:51:55,235 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-05 10:02:20,995 WARN received SIGTERM indicating exit request
+2025-01-05 10:03:22,353 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 10:03:22,376 INFO supervisord started with pid 1
+2025-01-05 10:03:23,381 INFO spawned: 'blogapp' with pid 6
+2025-01-05 10:03:23,401 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 10:03:24,410 INFO spawned: 'blogapp' with pid 7
+2025-01-05 10:03:24,417 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 10:03:26,422 INFO spawned: 'blogapp' with pid 8
+2025-01-05 10:03:26,430 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 10:03:29,437 INFO spawned: 'blogapp' with pid 9
+2025-01-05 10:03:29,445 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 10:03:30,447 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-05 10:07:33,738 WARN received SIGTERM indicating exit request
+2025-01-05 12:06:08,941 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 12:06:08,964 INFO supervisord started with pid 1
+2025-01-05 12:06:09,969 INFO spawned: 'blogapp' with pid 7
+2025-01-05 12:06:09,978 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 12:06:10,981 INFO spawned: 'blogapp' with pid 8
+2025-01-05 12:06:10,990 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 12:06:12,994 INFO spawned: 'blogapp' with pid 9
+2025-01-05 12:06:13,003 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 12:06:16,008 INFO spawned: 'blogapp' with pid 10
+2025-01-05 12:06:16,014 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 12:06:17,016 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-05 12:16:38,759 WARN received SIGTERM indicating exit request
+2025-01-05 13:38:43,177 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 13:38:43,190 INFO supervisord started with pid 1
+2025-01-05 13:38:44,193 INFO spawned: 'blogapp' with pid 7
+2025-01-05 13:38:44,204 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 13:38:45,211 INFO spawned: 'blogapp' with pid 8
+2025-01-05 13:38:45,219 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 13:38:47,225 INFO spawned: 'blogapp' with pid 9
+2025-01-05 13:38:47,233 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 13:38:50,236 INFO spawned: 'blogapp' with pid 10
+2025-01-05 13:38:50,243 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 13:38:51,246 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-05 13:41:48,458 WARN received SIGTERM indicating exit request
+2025-01-05 13:52:37,744 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 13:52:37,756 INFO supervisord started with pid 1
+2025-01-05 13:52:38,764 INFO spawned: 'blogapp' with pid 7
+2025-01-05 13:52:38,797 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 13:52:39,801 INFO spawned: 'blogapp' with pid 8
+2025-01-05 13:52:39,809 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 13:52:41,814 INFO spawned: 'blogapp' with pid 9
+2025-01-05 13:52:41,825 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 13:52:44,833 INFO spawned: 'blogapp' with pid 10
+2025-01-05 13:52:44,845 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 13:52:45,848 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-05 13:57:23,180 WARN received SIGTERM indicating exit request
+2025-01-05 13:59:59,895 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 13:59:59,911 INFO supervisord started with pid 1
+2025-01-05 14:00:00,915 INFO spawned: 'blogapp' with pid 7
+2025-01-05 14:00:00,935 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:00:01,946 INFO spawned: 'blogapp' with pid 8
+2025-01-05 14:00:01,954 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:00:03,958 INFO spawned: 'blogapp' with pid 9
+2025-01-05 14:00:03,965 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:00:06,970 INFO spawned: 'blogapp' with pid 10
+2025-01-05 14:00:06,978 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:00:07,980 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-05 14:10:01,700 WARN received SIGTERM indicating exit request
+2025-01-05 14:11:00,481 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 14:11:00,498 INFO supervisord started with pid 1
+2025-01-05 14:11:01,503 INFO spawned: 'blogapp' with pid 7
+2025-01-05 14:11:01,515 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:11:02,521 INFO spawned: 'blogapp' with pid 8
+2025-01-05 14:11:02,527 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:11:04,535 INFO spawned: 'blogapp' with pid 9
+2025-01-05 14:11:04,554 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:11:07,562 INFO spawned: 'blogapp' with pid 10
+2025-01-05 14:11:07,579 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:11:08,581 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-05 14:22:15,376 WARN received SIGTERM indicating exit request
+2025-01-05 14:23:02,992 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 14:23:03,026 INFO supervisord started with pid 1
+2025-01-05 14:23:04,029 INFO spawned: 'blogapp' with pid 7
+2025-01-05 14:23:04,037 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:23:05,041 INFO spawned: 'blogapp' with pid 8
+2025-01-05 14:23:05,048 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:23:07,053 INFO spawned: 'blogapp' with pid 9
+2025-01-05 14:23:07,060 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:23:10,068 INFO spawned: 'blogapp' with pid 10
+2025-01-05 14:23:10,081 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:23:10,081 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-05 14:35:52,006 WARN received SIGTERM indicating exit request
+2025-01-05 14:37:08,281 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 14:37:08,295 INFO supervisord started with pid 1
+2025-01-05 14:37:09,300 INFO spawned: 'blogapp' with pid 7
+2025-01-05 14:37:09,308 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:37:10,313 INFO spawned: 'blogapp' with pid 8
+2025-01-05 14:37:10,323 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:37:12,328 INFO spawned: 'blogapp' with pid 9
+2025-01-05 14:37:12,334 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:37:15,341 INFO spawned: 'blogapp' with pid 10
+2025-01-05 14:37:15,347 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:37:16,349 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-05 14:50:03,279 WARN received SIGTERM indicating exit request
+2025-01-05 14:54:27,932 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-05 14:54:27,942 INFO supervisord started with pid 1
+2025-01-05 14:54:28,950 INFO spawned: 'blogapp' with pid 7
+2025-01-05 14:54:28,964 WARN exited: blogapp (exit status 127; not expected)
+2025-01-05 14:54:29,967 INFO spawned: 'blogapp' with pid 8
+2025-01-05 14:54:29,975 WARN exited: blogapp (exit status 127; not expected)

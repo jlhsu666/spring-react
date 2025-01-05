@@ -1,0 +1,65 @@
+services:
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    container_name: net2-frontend-web
+    ports:
+      - "3000:3000"
+    networks:
+      - net2
+    volumes:
+      - ./frontend:/usr/share1  # Shared volume for service1
+      - /usr/share1/app/node_modules
+    working_dir: /usr/share1    # Set the working directory to /usr/share1
+
+  backend:
+    build:
+      context: employee-sys
+      dockerfile: Dockerfile
+    container_name: net2-backend-api
+    ports:
+      - "8080:8080"
+    networks:
+      - net2
+    volumes:
+      - ./employee-sys:/usr/share1  # Shared volume for service1
+    working_dir: /usr/share1        # Set the working directory to /usr/share1
+    depends_on:
+      - mariadb
+
+  nginx:
+    build:
+      context: nginx
+      dockerfile: Dockerfile
+    container_name: net2-nginx
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - net2
+  
+  mariadb:
+    image: mariadb:10.5
+    container_name: net2-mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: abcd1234
+      MYSQL_DATABASE: ems
+      MYSQL_USER: ems_user
+      MYSQL_PASSWORD: abcd1234
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mariadb_data:/var/lib/mysql
+    networks:
+      - net2
+
+networks:
+  net2:
+    driver: bridge
+
+volumes:
+  mariadb_data:
