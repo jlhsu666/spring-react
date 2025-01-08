@@ -10,7 +10,7 @@ COPY --from=jdk $JAVA_HOME $JAVA_HOME
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
 
 # Install Supervisor
-RUN apt-get update && apt-get install -y supervisor && mkdir -p /var/log/supervisor
+RUN apt-get update && apt-get install -y supervisor net-tools iputils-ping && mkdir -p /var/log/supervisor
 
 # Copy the supervisor configuration file
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf

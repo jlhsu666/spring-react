@@ -3,21 +3,21 @@ services:
     build:
       context: frontend
       dockerfile: Dockerfile
-    container_name: net2-frontend-web
+    container_name: frontend
     ports:
       - "3000:3000"
     networks:
       - net2
     volumes:
       - ./frontend:/usr/share1  # Shared volume for service1
-      - /usr/share1/app/node_modules
+      # - /usr/share1/app/node_modules
     working_dir: /usr/share1    # Set the working directory to /usr/share1
 
   backend:
     build:
       context: employee-sys
       dockerfile: Dockerfile
-    container_name: net2-backend-api
+    container_name: backend
     ports:
       - "8080:8080"
     networks:

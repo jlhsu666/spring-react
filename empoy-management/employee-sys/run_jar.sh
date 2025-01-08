@@ -1,4 +1,4 @@
-JAR_DIR="/usr/share1/api"
+JAR_DIR="/usr/share1/target"
 CURRENT_JAR=""
 LAST_MOD_TIME=0
 
