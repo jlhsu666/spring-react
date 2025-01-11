@@ -10,7 +10,6 @@ services:
       - net2
     volumes:
       - ./frontend:/usr/share1  # Shared volume for service1
-      # - /usr/share1/app/node_modules
     working_dir: /usr/share1    # Set the working directory to /usr/share1
 
   backend:
