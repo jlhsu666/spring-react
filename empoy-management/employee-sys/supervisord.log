@@ -262,3 +262,15 @@
 2025-01-11 08:19:12,889 WARN exited: blogapp (exit status 127; not expected)
 2025-01-11 08:19:13,891 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
 2025-01-11 08:59:26,812 WARN received SIGTERM indicating exit request
+2025-01-11 08:59:35,293 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-01-11 08:59:35,303 INFO supervisord started with pid 1
+2025-01-11 08:59:36,306 INFO spawned: 'blogapp' with pid 7
+2025-01-11 08:59:36,314 WARN exited: blogapp (exit status 127; not expected)
+2025-01-11 08:59:37,318 INFO spawned: 'blogapp' with pid 8
+2025-01-11 08:59:37,325 WARN exited: blogapp (exit status 127; not expected)
+2025-01-11 08:59:39,330 INFO spawned: 'blogapp' with pid 9
+2025-01-11 08:59:39,337 WARN exited: blogapp (exit status 127; not expected)
+2025-01-11 08:59:42,343 INFO spawned: 'blogapp' with pid 10
+2025-01-11 08:59:42,351 WARN exited: blogapp (exit status 127; not expected)
+2025-01-11 08:59:43,353 INFO gave up: blogapp entered FATAL state, too many start retries too quickly
+2025-01-11 12:58:53,729 WARN received SIGTERM indicating exit request

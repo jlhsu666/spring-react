@@ -53,6 +53,20 @@ services:
       - "3306:3306"
     volumes:
       - ./mariadb_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - net2
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: net2-phpmyadmin
+    environment:
+      PMA_HOST: mariadb
+      MYSQL_ROOT_PASSWORD: abcd1234
+    ports:
+      - "8081:80"
+    depends_on:
+      - mariadb  
     networks:
       - net2
 
