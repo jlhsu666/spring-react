@@ -1,13 +1,11 @@
--- Create the database
-CREATE DATABASE IF NOT EXISTS products;
+CREATE DATABASE IF NOT EXISTS ems;
 
 -- Use the database
-USE products;
+USE ems;
 
--- Create the table for products
-CREATE TABLE IF NOT EXISTS product (
+CREATE TABLE IF NOT EXISTS employees (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    price DOUBLE NOT NULL,
-    quantity INT NOT NULL
+    first_name VARCHAR(255),
+    last_name VARCHAR(255),
+    email_id VARCHAR(255) NOT NULL UNIQUE
 );

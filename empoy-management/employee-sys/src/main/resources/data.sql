@@ -1,4 +1,3 @@
--- Insert initial data into the product table
-INSERT INTO product (title, price, quantity) VALUES 
-('iPhone', 1200.00, 99),
-('Blackberry', 1100.00, 55);
+INSERT INTO employees (first_name, last_name, email_id) VALUES 
+('John', 'Doe', 'john.doe@example.com'),
+('Jane', 'Smith', 'jane.smith@example.com');
